@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "03 Arithmetic Operations"
+title:  "03 四則演算"
 date:   2016-05-19 15:00:00 +0900
 
 ---

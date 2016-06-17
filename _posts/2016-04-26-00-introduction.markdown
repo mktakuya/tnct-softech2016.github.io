@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "00 Introduction"
+title:  "00 イントロダクション"
 date:   2016-04-26 00:00:00 +0900
 
 ---
