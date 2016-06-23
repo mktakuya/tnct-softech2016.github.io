@@ -127,7 +127,7 @@ C言語で条件を書くためには、次のような関係演算子や論理�
 では、C言語で「条件の組み合わせ」を使ってみましょう。ファイル名は、waribiki.cとします。
 
 {% highlight c linenos %}
-#include <stdio.H>
+#include <stdio.h>
 
 int main(void)
 {
