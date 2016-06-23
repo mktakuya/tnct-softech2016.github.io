@@ -43,7 +43,7 @@ int main(void)
 キーボードからの入力を変数に代入するscanf()関数は、以下のように使います。
 
 {% highlight c %}
-scanf("%d", %x); // 変数xにキーボードから入力された整数値を格納する
+scanf("%d", &x); // 変数xにキーボードから入力された整数値を格納する
 {% endhighlight %}
 
 なぜ&xなのか？ という疑問も出てくるでしょうが、いったん置いておきましょう。
@@ -57,13 +57,13 @@ float weight;
 char code;
 printf("体重を入力してください。\n");
 printf("-->");
-scanf("%f", weight);
+scanf("%f", &weight);
 {% endhighlight %}
 
 {% highlight c %}
 printf("コードを入力してください。\n");
 printf("-->");
-scanf("%c", code);
+scanf("%c", &code);
 {% endhighlight %}
 
 
