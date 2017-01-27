@@ -18,5 +18,3 @@ github_username:  mktakuya
 
 # Build settings
 markdown: kramdown
-
-theme: jekyll-theme-cayman
