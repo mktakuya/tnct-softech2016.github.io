@@ -10,8 +10,8 @@ title: 新入生のためのC言語チュートリアル
 email: takuya.mk96@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   苫小牧高専ソフトウェアテクノロジー部1年生向けのC言語チュートリアル。
-baseurl: "/c-tutorial" # the subpath of your site, e.g. /blog
-url: "https://mktakuya.net" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://tnct-softech2016.github.io" # the base hostname & protocol for your site
 permalink: /c-tutorial/:title.html
 twitter_username: mktakuya
 github_username:  mktakuya
