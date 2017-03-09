@@ -61,5 +61,58 @@ date:   2017-03-08 00:00:00 +0900
 
 ## ソースコードの例
 
-2017/03/09の22時くらいに載せるからそれまでは頑張ってくれや
+{% highlight c linenos %}
+// ソフトウェアテクノロジー部2016年度1年生向け
+// 「かんたんな暗号化プログラム」
 
+#include <stdio.h>
+
+int main(void)
+{
+        char message[20];
+        int mode;
+        int key;
+        int i;
+
+        printf("モード選択（暗号化=1, 復号=2）\n");
+        printf("--> ");
+        scanf("%d", &mode);
+
+        printf("鍵を入力\n");
+        printf("--> ");
+        scanf("%d", &key);
+
+        switch(mode) {
+                case 1:
+                        printf("平文を入力\n");
+                        printf("--> ");
+                        scanf("%s", message);
+
+                        i = 0;
+                        printf("暗号文は ");
+                        while(message[i] != '\0') {
+                                printf("%c", message[i] + (char)key);
+                                i++;
+                        }
+                        printf(" です。\n");
+                        break;
+                case 2:
+                        printf("暗号文を入力\n");
+                        printf("--> ");
+                        scanf("%s", message);
+
+                        i = 0;
+                        printf("平文は ");
+                        while(message[i] != '\0') {
+                                printf("%c", message[i] - (char)key);
+                                i++;
+                        }
+                        printf(" です。\n");
+                        break;
+                default:
+                        printf("無効なモードです。");
+                        break;
+        }
+        return 0;
+}
+{% endhighlight %}
