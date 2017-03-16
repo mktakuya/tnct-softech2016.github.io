@@ -63,9 +63,7 @@ years[i]の要素がinputより小さくなった時点でループ終了。な�
 int main(void)
 {
         int years[32];
-        int year;
         int input;
-        int count = 1;
         int i;
 
         for (i = 0; i < 32; i++) {
