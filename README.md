@@ -6,6 +6,9 @@
 
 https://tnct-softech2016.github.io/
 
+引き継ぎ資料はこのへん参照。  
+[https://gist.github.com/mktakuya/839b5db4c9c5b6dce8b0989d5a4db0f2](https://gist.github.com/mktakuya/839b5db4c9c5b6dce8b0989d5a4db0f2)
+
 ## 動かし方
 
 Ruby、Bundlerのインストール後、
